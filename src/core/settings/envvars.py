@@ -1,5 +1,4 @@
-from src.base.utils.collections import deep_update
-from src.base.utils.settings import get_settings_from_environment
+from src.base.utils.settings import get_settings_from_environment, deep_update
 """
 This script captures environment variables with a specified prefix,
 removes the prefix, and incorporates them into global variables.
